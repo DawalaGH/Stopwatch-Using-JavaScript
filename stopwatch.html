@@ -42,13 +42,13 @@
 
           appendmilliseconds.innerHTML = milliseconds;
           appendSeconds.innerHTML = seconds;
+        };
 
-          function startTimer() {
-            milliseconds++;
+        function startTimer() {
+          milliseconds++;
 
-            if (milliseconds > 9) {
-              appendmilliseconds.innerHTML = milliseconds;
-            }
+          if (milliseconds > 9) {
+            appendmilliseconds.innerHTML = milliseconds;
 
             if (milonds <= 9) {
               appendmilliseconds.innerHTML = "0" + milliseconds;
@@ -65,7 +65,7 @@
               appendSeconds.innerHTML = seconds;
             }
           }
-        };
+        }
       </script>
     </div>
   </body>
